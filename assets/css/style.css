@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
@@ -75,7 +74,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../css/images/hero-image\ .webp') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -184,15 +183,15 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../css/images/ethos-center-image.jpeg') no-repeat center center;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
-} 
+}
 
 /* event times */
 
 #times {
-    background-image: url('../css/images/dublin-city.webp');
+    background-image: url('../images/times-background.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -211,14 +210,15 @@ hr {
     border: 2px solid white;
     box-sizing: border-box;
 }
+
 #times h2 {
     color: #fafafa;
 }
 
-/*footer */
+/* footer */
 
 footer {
-    height :150px;
+    height: 150px;
 }
 
 .social-networks {
@@ -235,3 +235,17 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
